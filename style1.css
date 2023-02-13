@@ -1,0 +1,73 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background: linear-gradient(320deg, rgba(200, 247, 32, 0.873),rgba(11, 255, 11,0.3), rgba(233, 89, 89, 0.604));
+}
+.buttons{
+    
+    margin-left: 1px;
+    border: solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.4);
+    padding: 8px;
+    
+    
+}
+
+.button1{
+    height: 50px;
+    width: 120px;
+    border: solid 1px;
+    border-radius: 8px;
+    margin-left: 100px;
+    background-color: aliceblue;
+    
+    
+    
+}
+.searchbar{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 20px;
+    
+}
+.images{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.span{
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-top: 10px;
+}
+.btn{
+    width: 100px;
+    height: 20px;
+    margin-top: 5px;
+}
+.div1{
+    width: 100%;	
+    height: 100%; /* Размеры */
+    border: solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.4);
+}
+
+
